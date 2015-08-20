@@ -4,8 +4,8 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using DG.Tweening;
 
-namespace Next.Tween {
-	public class TweenBase : MonoBehaviour {
+namespace TC.Tween {
+	public class TweenComponentBase : MonoBehaviour {
 
 		public Transform target;
 		public float duration = 1f;
@@ -26,10 +26,6 @@ namespace Next.Tween {
 		public void Start () {
 			OnStart();
 		}
-		
-		// Update is called once per frame
-		void Update () {
-		
-		}
+
 	}
 }
